@@ -1,0 +1,24 @@
+{
+  "name": "gsg-client",
+  "version": "1.0.1",
+  "description": "这个是固守的脚手架命令工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gsg": "index.js"
+  },
+  "author": "wmz 353284782@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.20.0",
+    "ora": "^3.4.0",
+    "download-git-repo": "^1.1.0"
+  }
+}
